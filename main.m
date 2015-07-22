@@ -1,4 +1,4 @@
-function RunDemo(n, p, s, func)
+function main(n, p, s, func)
 
 k = 5; % Number of Experiments
 range=[-2:0.5:2]; % range is used for generating c 
