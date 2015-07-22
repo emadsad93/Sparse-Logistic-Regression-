@@ -16,41 +16,40 @@ n = [3000];
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Low Dimensional Setting %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-RunDemo(n(1),p(2),s(1),func1); 
+main(n(1),p(2),s(1),func1); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/LD_100_1.fig']);
 
 %%
-RunDemo(n,p(2),s(1),func1); 
+main(n,p(2),s(1),func1); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/LD_300_1.fig']);
 
-cle
 %%
-RunDemo(n,p(1),s(1),func2); 
+main(n,p(1),s(1),func2); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/LD_100_2.fig']);
 
 
 %%
-RunDemo(n,p(2),s(1),func2); 
+main(n,p(2),s(1),func2); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/LD_300_2.fig']);
 
 
 %%
-RunDemo(n,p(1),s(1),func3); 
+main(n,p(1),s(1),func3); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/LD_100_3.fig']);
 
 
 %%
-RunDemo(n,p(2),s(1),func3); 
+main(n,p(2),s(1),func3); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/LD_300_3.fig']);
@@ -60,42 +59,42 @@ saveas(figure(1),[pwd '/plots/LD_300_3.fig']);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Hight Dimensional Setting %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-RunDemo(n,p(1),s(2),func1); 
+main(n,p(1),s(2),func1); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/HD_100_1.fig']);
 
 
 %%
-RunDemo(n,p(2),s(2),func1); 
+main(n,p(2),s(2),func1); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/HD_300_1.fig']);
 
 
 %%
-RunDemo(n,p(1),s(2),func2); 
+main(n,p(1),s(2),func2); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/HD_100_2.fig']);
 
 
 %%
-RunDemo(n,p(2),s(2),func2); 
+main(n,p(2),s(2),func2); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/HD_300_2.fig']);
 
 
 %%
-RunDemo(n,p(1),s(2),func3); 
+main(n,p(1),s(2),func3); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/HD_100_3.fig']);
 
 
 %%
-RunDemo(n,p(2),s(2),func3); 
+main(n,p(2),s(2),func3); 
 load('workspace.mat'); 
 run plotForDemo.m
 saveas(figure(1),[pwd '/plots/HD_300_3.fig']);
