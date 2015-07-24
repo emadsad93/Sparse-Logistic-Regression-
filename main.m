@@ -52,7 +52,6 @@ for j = 1:k
             % y_PV = y_new;
             beta_hat_PV = beta_hat;
             
-            % check for validity of beta or -beta 
             PV_diffNorm(ind, (j-1) * k + t) = norm(beta_hat_PV - beta_star);
             %fprintf('%d', beta_hat_PV);             
             %%%%%%%%%%%%%%%
