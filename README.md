@@ -1,1 +1,1 @@
-# Sparse-Logistic-Regression-
+# Sparse Single Index Model
